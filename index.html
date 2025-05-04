@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trendesta - الموضة على طريقتك</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #FFD700;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #FFD700;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400/000000/FFD700?text=Trendesta+Fashion') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      color: #FFD700;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .category {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .category:hover {
+      transform: scale(1.05);
+      border-color: #FFD700;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Trendesta</div>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#">رجالي</a>
+      <a href="#">حريمي</a>
+      <a href="#">تواصل</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>الموضة تبدأ من هنا</h1>
+  </section>
+
+  <section class="categories">
+    <div class="category">تيشيرتات رجالي</div>
+    <div class="category">فساتين حريمي</div>
+    <div class="category">إكسسوارات</div>
+    <div class="category">أحدث العروض</div>
+  </section>
+
+  <a class="whatsapp-btn" href="https://wa.me/201234567890" target="_blank">📱</a>
+</body>
+</html>
